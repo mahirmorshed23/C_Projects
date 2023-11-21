@@ -59,6 +59,7 @@ void display(char arr[12][12], int x, int y)
 
     if(pre_x[n-1] == p && pre_y[n-1] == q) 
     {
+        Beep(300, 100);
         collision = 1;
         arr[p][q] = 'O';
         points++;
