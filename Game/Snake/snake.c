@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
+#include <time.h>
 
 int pre_x[100] = {1,1,1}, pre_y[100] = {1,2,3}, p, q, collision=1, n = 3, points=0;
 
